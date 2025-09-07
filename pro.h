@@ -26,13 +26,13 @@ void ajouterEtudiant(){
     printf(">1) Ajouter etudiant\n");
 
     printf("CNE: ");
-    scanf("%s",&etudiant[count].ID);
+    scanf("%s",etudiant[count].ID);
 
     printf("Nom :");
-    scanf("%s",&etudiant[count].nom);
+    scanf("%s",etudiant[count].nom);
 
     printf("Prenom :");
-    scanf("%s",&etudiant[count].prenom);
+    scanf("%s",etudiant[count].prenom);
 
     count++;
     }
